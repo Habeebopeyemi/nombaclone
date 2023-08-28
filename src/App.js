@@ -1,8 +1,16 @@
 import "./App.css";
-import { Header } from "./components";
+import { Header, Footer, Intro } from "./components";
 
 function App() {
-  return <Header />;
+  return (
+    <>
+      <Header />
+      <main>
+        <Intro />
+        <Footer />
+      </main>
+    </>
+  );
 }
 
 export default App;

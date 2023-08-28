@@ -139,3 +139,66 @@ export const navbutton = [
     href: "#",
   },
 ];
+
+export const footer_links = [
+  {
+    title: "Products",
+    data: [
+      { key: `${uuidv4()}`, href: "#", description: "Accept payments" },
+      { key: `${uuidv4()}`, href: "#", description: "Make payments" },
+      { key: `${uuidv4()}`, href: "#", description: "POS Terminals" },
+      { key: `${uuidv4()}`, href: "#", description: "Invoice" },
+    ],
+  },
+  {
+    title: "Nomba",
+    data: [
+      { key: `${uuidv4()}`, href: "#", description: "About us" },
+      { key: `${uuidv4()}`, href: "#", description: "Blog" },
+      { key: `${uuidv4()}`, href: "#", description: "Work with Nomba" },
+    ],
+  },
+  {
+    title: "Business Types",
+    data: [
+      { key: `${uuidv4()}`, href: "#", description: "Small Business" },
+      { key: `${uuidv4()}`, href: "#", description: "Large business" },
+    ],
+  },
+  {
+    title: "Contact us",
+    data: [
+      { key: `${uuidv4()}`, href: "#", description: "018888866" },
+      { key: `${uuidv4()}`, href: "#", description: "015200061" },
+      { key: `${uuidv4()}`, href: "#", description: "018888800" },
+      { key: `${uuidv4()}`, href: "#", description: "support@nomba.com" },
+    ],
+  },
+  {
+    title: "Follow us",
+    data: [
+      { key: `${uuidv4()}`, href: "#", description: "Instagram" },
+      { key: `${uuidv4()}`, href: "#", description: "Twitter" },
+      { key: `${uuidv4()}`, href: "#", description: "Youtube" },
+      { key: `${uuidv4()}`, href: "#", description: "Facebook" },
+    ],
+  },
+];
+
+export const footer_address = [
+  {
+    key: `${uuidv4()}`,
+    flag: <span className="mr-1">&#127475;&#127468;</span>,
+    country: "Nigeria",
+    location: [
+      "16 Billings Way Oregun Ikeja, Lagos, Nigeria",
+      "19b Bosun Adekoya Street, Lekki Phase 1, Lagos, Nigeria",
+    ],
+  },
+  {
+    key: `${uuidv4()}`,
+    flag: <span className="mr-1">&#127482;&#127480;</span>,
+    country: "United States",
+    location: ["580 California St, 12th Floor, San Francisco, CA 94104"],
+  },
+];

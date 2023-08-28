@@ -1,15 +1,18 @@
 import React from "react";
 import { AiOutlineRight, AiOutlineDown } from "react-icons/ai";
 import { Link } from "react-router-dom";
+import { SubMenu } from "./HeaderDropdown";
 
 const HeaderLink = ({ title, children }) => (
   <li
     onClick={(e) => e.preventDefault()}
-    className="w-full mb-5 border-b-[1px]"
+    className="w-full mr-3 mb-5 lg:mb-2 lg:mr-2 lg:basis-[28%]"
   >
-    <div className="w-full flex justify-between text-navlink">{title}</div>
+    <div className="w-full flex justify-between text-navlink lg:text-sm">
+      {title}
+    </div>
     {children.map((child) => (
-      <div>
+      <div className="lg:hidden">
         <div className="w-full flex justify-between py-4">
           <div className="flex justify-between">
             <div className="bg-yellow-50 w-[50px] h-[50px] p-4 mr-3 rounded-full">
@@ -32,7 +35,7 @@ const HeaderLink = ({ title, children }) => (
         </div>
         {child.subChildren &&
           child.subChildren.map((subChild) => (
-            <p className="w-[77%] mx-auto mb-2 text-sm font-[500]">
+            <p className="ml-16 mb-2 text-sm font-[500]">
               <a href={subChild.href}></a>
               {subChild.title}
             </p>
