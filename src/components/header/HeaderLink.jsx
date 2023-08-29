@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { AiOutlineRight, AiOutlineDown } from "react-icons/ai";
-import { Link } from "react-router-dom";
-import { SubMenu } from "./HeaderDropdown";
 import useWindowSize from "../../hooks/hooks";
 
 const HeaderLink = ({ title, children }) => {
@@ -58,8 +56,7 @@ const HeaderLink = ({ title, children }) => {
             child.subChildren &&
             child.subChildren.map((subChild) => (
               <p className="hidden ml-16 mb-2 text-sm font-[500]">
-                <a href={subChild.href}></a>
-                {subChild.title}
+                <a href={subChild.href}>{subChild.title}</a>
               </p>
             ))}
         </div>

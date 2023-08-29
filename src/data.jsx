@@ -72,11 +72,11 @@ export const nav_links = [
         description: "Accept and make payments on Nomba",
         icon: <MdOutlinePayments />,
         subChildren: [
-          { key: `${uuidv4()}`, title: "Accept Payments", href: "#" },
-          { key: `${uuidv4()}`, title: "Make Payments", href: "#" },
-          { key: `${uuidv4()}`, title: "POS Terminals", href: "#" },
-          { key: `${uuidv4()}`, title: "Invoicing", href: "#" },
-          { key: `${uuidv4()}`, title: "Service Status", href: "#" },
+          { key: `${uuidv4()}`, title: "Accept Payments", href: "/" },
+          { key: `${uuidv4()}`, title: "Make Payments", href: "/" },
+          { key: `${uuidv4()}`, title: "POS Terminals", href: "/" },
+          { key: `${uuidv4()}`, title: "Invoicing", href: "/" },
+          { key: `${uuidv4()}`, title: "Service Status", href: "/" },
         ],
       },
       {
@@ -84,7 +84,7 @@ export const nav_links = [
         title: "Banking",
         description: "Access the financial tools you need",
         icon: <CiBank />,
-        subChildren: [{ key: `${uuidv4()}`, title: "Savings", href: "#" }],
+        subChildren: [{ key: `${uuidv4()}`, title: "Savings", href: "/" }],
       },
     ],
   },
@@ -136,12 +136,12 @@ export const navbutton = [
   {
     key: `${uuidv4()}`,
     title: "Sign in",
-    href: "#",
+    href: "/",
   },
   {
     key: `${uuidv4()}`,
     title: "Open an account",
-    href: "#",
+    href: "/",
   },
 ];
 
@@ -149,43 +149,43 @@ export const footer_links = [
   {
     title: "Products",
     data: [
-      { key: `${uuidv4()}`, href: "#", description: "Accept payments" },
-      { key: `${uuidv4()}`, href: "#", description: "Make payments" },
-      { key: `${uuidv4()}`, href: "#", description: "POS Terminals" },
-      { key: `${uuidv4()}`, href: "#", description: "Invoice" },
+      { key: `${uuidv4()}`, href: "/", description: "Accept payments" },
+      { key: `${uuidv4()}`, href: "/", description: "Make payments" },
+      { key: `${uuidv4()}`, href: "/", description: "POS Terminals" },
+      { key: `${uuidv4()}`, href: "/", description: "Invoice" },
     ],
   },
   {
     title: "Nomba",
     data: [
-      { key: `${uuidv4()}`, href: "#", description: "About us" },
-      { key: `${uuidv4()}`, href: "#", description: "Blog" },
-      { key: `${uuidv4()}`, href: "#", description: "Work with Nomba" },
+      { key: `${uuidv4()}`, href: "/", description: "About us" },
+      { key: `${uuidv4()}`, href: "/", description: "Blog" },
+      { key: `${uuidv4()}`, href: "/", description: "Work with Nomba" },
     ],
   },
   {
     title: "Business Types",
     data: [
-      { key: `${uuidv4()}`, href: "#", description: "Small Business" },
-      { key: `${uuidv4()}`, href: "#", description: "Large business" },
+      { key: `${uuidv4()}`, href: "/", description: "Small Business" },
+      { key: `${uuidv4()}`, href: "/", description: "Large business" },
     ],
   },
   {
     title: "Contact us",
     data: [
-      { key: `${uuidv4()}`, href: "#", description: "018888866" },
-      { key: `${uuidv4()}`, href: "#", description: "015200061" },
-      { key: `${uuidv4()}`, href: "#", description: "018888800" },
-      { key: `${uuidv4()}`, href: "#", description: "support@nomba.com" },
+      { key: `${uuidv4()}`, href: "/", description: "018888866" },
+      { key: `${uuidv4()}`, href: "/", description: "015200061" },
+      { key: `${uuidv4()}`, href: "/", description: "018888800" },
+      { key: `${uuidv4()}`, href: "/", description: "support@nomba.com" },
     ],
   },
   {
     title: "Follow us",
     data: [
-      { key: `${uuidv4()}`, href: "#", description: "Instagram" },
-      { key: `${uuidv4()}`, href: "#", description: "Twitter" },
-      { key: `${uuidv4()}`, href: "#", description: "Youtube" },
-      { key: `${uuidv4()}`, href: "#", description: "Facebook" },
+      { key: `${uuidv4()}`, href: "/", description: "Instagram" },
+      { key: `${uuidv4()}`, href: "/", description: "Twitter" },
+      { key: `${uuidv4()}`, href: "/", description: "Youtube" },
+      { key: `${uuidv4()}`, href: "/", description: "Facebook" },
     ],
   },
 ];

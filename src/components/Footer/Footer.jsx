@@ -40,10 +40,10 @@ const Footer = () => {
           </h6>
           <ul className="flex">
             <li className="mr-4">
-              <a href="#">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </li>
             <li className="mr-4">
-              <a href="#"> Terms of Service</a>
+              <a href="/"> Terms of Service</a>
             </li>
           </ul>
         </div>
