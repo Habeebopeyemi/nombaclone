@@ -1,9 +1,9 @@
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 
-const ArrowBtn = ({ description }) => {
+const ArrowBtn = ({ description, className }) => {
   return (
-    <button className="w-full flex p-3 text-sm justify-center">
+    <button className={`w-full flex text-sm ${className}`}>
       <span className="mr-2 hover:mr-3 ease-in-out md:font-bold md:text-lg">
         {description}
       </span>

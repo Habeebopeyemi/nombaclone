@@ -1,14 +1,23 @@
 import "./App.css";
-import { Header, Footer, Intro } from "./components";
+import { Header, Footer, Intro, Service, Options, Gadget } from "./components";
 
 function App() {
   return (
     <>
-      <Header />
+      <div className="lg:max-w-[1300px] mx-auto">
+        <Header />
+      </div>
       <main>
-        <Intro />
-        <Footer />
+        <div className="lg:max-w-[1300px] mx-auto">
+          <Intro />
+          <Service />
+        </div>
+        <Options />
+        <div className="lg:max-w-[1300px] mx-auto">
+          <Gadget />
+        </div>
       </main>
+      <Footer />
     </>
   );
 }
